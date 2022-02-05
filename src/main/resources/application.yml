@@ -1,0 +1,14 @@
+server:
+  port: 8086
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bankdb
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+
+
+webservice:
+  sms:
+    provider:
+      url: https://sms-provider/messages/send-sms
